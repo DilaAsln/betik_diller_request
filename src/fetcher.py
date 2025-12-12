@@ -24,7 +24,7 @@ def fetch_posts(limit: int = 100) -> list[dict]:
         print("Hata: JSON verisi çözümlenemedi.")
         return []
 
-    # JSON doğrulama
+    
     if not isinstance(data, list):
         print("Hata: Beklenen JSON formatı liste değil.")
         return []
@@ -40,7 +40,7 @@ def fetch_posts(limit: int = 100) -> list[dict]:
 def run_fetch() -> None:
     posts = fetch_posts()
 
-    # İnternet/DNS yoksa: ödevin geri kalanını çalıştırmak için offline veri
+    
     if not posts:
         print("Uyarı: API erişilemedi (DNS/Internet). Offline 100 kayıt üretildi.")
         posts = [

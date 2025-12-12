@@ -1,5 +1,4 @@
 import argparse
-
 from .fetcher import run_fetch
 from .log_generator import run_generate
 from .parser import read_and_parse_log
