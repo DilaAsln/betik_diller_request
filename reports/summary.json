@@ -1,0 +1,57 @@
+{
+  "total_logs": 100,
+  "by_level": {
+    "INFO": 28,
+    "WARNING": 38,
+    "ERROR": 34
+  },
+  "by_user": {
+    "1": {
+      "total": 10,
+      "errors": 2
+    },
+    "2": {
+      "total": 10,
+      "errors": 4
+    },
+    "3": {
+      "total": 10,
+      "errors": 4
+    },
+    "4": {
+      "total": 10,
+      "errors": 6
+    },
+    "5": {
+      "total": 10,
+      "errors": 3
+    },
+    "6": {
+      "total": 10,
+      "errors": 1
+    },
+    "7": {
+      "total": 10,
+      "errors": 3
+    },
+    "8": {
+      "total": 10,
+      "errors": 2
+    },
+    "9": {
+      "total": 10,
+      "errors": 5
+    },
+    "10": {
+      "total": 10,
+      "errors": 4
+    }
+  },
+  "top_error_messages": [
+    "optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut",
+    "dolore veritatis porro provident adipisci blanditiis et sunt",
+    "laborum non sunt aut ut assumenda perspiciatis voluptas",
+    "soluta aliquam aperiam consequatur illo quis voluptas",
+    "enim unde ratione doloribus quas enim ut sit sapiente"
+  ]
+}

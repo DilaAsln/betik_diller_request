@@ -38,7 +38,7 @@ python3 -m src.main --analyze
 
 ## Ekran Görüntüsü Anlatımı
 
-![alt text](ekran_görüntüsü.png)
+![terminal çıktısı](ekran_görüntüsü.png)
 
 1) python3 -m src.main --fetch bu komut ile API’den (veya internet erişimi yoksa offline olarak) post verileri alınmış ve
 data/raw_posts.json dosyası başarıyla oluşturulmuştur.
